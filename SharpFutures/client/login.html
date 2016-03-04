@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <!-- stylesheets--> 
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" />
+    <!-- Scripts--> 		
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="script/LogIn.js" type="text/javascript"></script>
+    <title>Login page</title>
+  </head>
+  <body>
+    <br> 
+    <!-- Nav bar--> 
+    <div id="navcontainer">	
+    <nav class='navigation'>
+    <a href='index.html'>POD News</a>
+	<a href='pod-search.html'>POD Search</a>
+    <a href='my-profile.html'>My Profile</a>
+    <a href='current-bookings.html'>Current Bookings</a>
+    <a href='historic-bookings.html'>Historic Bookings</a>
+    <a href='contact-us.html'>Contact Us</a>
+    <a href='login.html'>Log In</a>
+    </nav>
+    </div>
+    <!--Jumbotron-Logo-->
+    <div class="jumbotron">
+      <img src="images/logo2.png" id="logo"/> 
+    </div>
+    <br> <br>
+    <!--Main screen-->
+    <div id="divContainer2">
+      <div id="introDiv"> 
+        <br> <br> 
+        <button id="signInButton"  type="button" class="buttonlayout">Sign In </button> 
+        <br/>
+        <button id="registerButton" type="button" class="buttonlayout"> Register </button> 
+        <br/>
+        <a href="Index.html"><button id="guestButton" type="button" class="buttonlayout"> Continue As Guest </button></a> 
+      </div>
+      <!--LogIn-->
+      <div id="logInDiv">
+        <form id="logInForm">
+          <label> Username: </label> 
+          <input class="form" id="textField" type="text" name="userid" maxlength="10"  required/>
+          <br>
+          <label> Password: </label>  
+          <input class="form" id="textField" type="password" name="pswrd" maxlength="10" required/>
+          <br> <br> 
+          <button class="buttonlayout" type="button" onClick="check(this.form)"> Login </button> 
+          <button class="buttonlayout" type="button" id="backButton"> Back </button>  <br> 
+          <button class="buttonlayout" id="forgotPasswordButton" type="button"> Forgot </button> 
+          <br/>
+        </form>
+      </div>
+      <!--Register-->		
+      <div id="registerDiv">
+        <form id="registerForm">
+          <label> First name: </label>  
+          <input class="form" id="firstName" type="text"/> <br> 
+          <label> Last name: </label>  
+          <input class="form" id="lastName" type="text"/> <br> 
+          <label> Email Address: </label>  
+          <input class="form"id="email" type="text"/> <br>
+          <label> Password: </label>  
+          <input class="form" id="password" type="password"/> <br> 	
+          <br>
+          <button class="buttonlayout" type="button"> Register </button> 
+          <button class="buttonlayout" type="button" id="registerBackButton" > Back </button> 
+        </form>
+      </div>
+    </div>
+	<!--Footer-->	
+    <footer style="clear:both">
+      <img src="images/logo2.png" id="footlogo" />  
+      <p> copyright 2016 / other info </p>
+      <br>
+    </footer>
+  </body>
+</html>

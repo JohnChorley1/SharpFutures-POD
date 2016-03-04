@@ -1,0 +1,821 @@
+/* CSS Document  */
+
+/*
+@font-face {
+    font-family: "futura";
+    src: url("../fonts/Futura-Book.ttf");
+}
+
+
+@font-face {
+    font-family: "futura italic";
+    src: url("../fonts/Futura_ICG_Book_Oblique.ttf");
+    font-style: italic, oblique;
+}
+*/ 
+
+
+
+
+/*--------------------------------ALL PAGES----------------------------------------*/
+
+
+/*NAVIGATION STYLE*/
+
+nav {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #4a486d;
+    margin: 0 auto;
+	min-width:100px;
+	max-width:950px;
+}
+
+#navcontainer {
+	width: 100%;
+	background-color: #4a486d;
+}
+
+#search {
+    width: 20px;
+    height: 15px;
+    padding-right: 6px;
+}
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #231e1f;
+    text-decoration: none;
+    color: white;
+}
+nav a:visited {
+    background-color: #231e1f;
+    text-decoration: none;
+    color: white;
+}
+
+/*JUMBOTRON STYLE*/
+
+.jumbotron {
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    padding: 0px;
+    margin: 0 auto;
+    clear: both;
+}
+
+/*CONTAINER STYLE*/
+
+.container {
+    text-align: center;
+    background-color: #f5f4f9;
+    padding: 2%;
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*BACKGROUND COLOR*/
+
+#backcol {
+    background-color: #f5f4f9;
+    height: 100%;
+}
+
+/*LEFT LINKS STYLING*/
+
+#sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    width: 16%;
+    background-color: #f5f4f9;
+    position: absolute;
+    height: 55%;
+    overflow: auto;
+    clear: both;
+    text-align: left;
+    float: left;
+	border-radius: 10px;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 0px 25px;
+    text-decoration: none;
+}
+li a.active {
+    text-decoration: none;
+    font-weight: bold;
+}
+li a:hover:not(.active) {
+    background-color: #231e1f;
+    color: white;
+    text-decoration: none;
+}
+
+/*PIC STYLING*/
+
+#pic{
+  width:50%;
+  stroke:#8e8db7;
+  stroke-width:4;
+  margin: auto; 
+}
+
+#pic2{
+  width:30%;
+  stroke:#8e8db7;
+  stroke-width:4;
+  margin: auto; 
+  padding-top: 45px; 
+  padding-bottom: 57px; 
+}
+
+.vpButton{
+	padding-top: 0px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #b1b2d2;
+    color: #231e1f;
+    text-align: center;
+	height:70px;
+	clear:both; 
+}
+footer p {
+    margin-right: 140px;
+}
+
+#footlogo {
+    float: left;
+    margin-left: 0px;
+    height: 70px;
+    width: 190px;
+}
+
+/*---------------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------INDEX PAGE----------------------------------------*/
+
+#topDiv {
+  float: left;
+  margin: 0px;
+  background-color: #555b8f;
+}
+
+#introheading {
+  font-family: Futura bold, sans-serif;
+  color: white;
+  font-size: 70px;
+  top: 20%; 
+  right: 18%; 
+  float:right; 
+  position: absolute;
+}
+
+#introtext {
+
+width: 26%; 
+position: absolute;
+top: 70%; 
+right: 16%; 
+float: right;
+font-family: Futura,sans-serif;
+font-size: 15px;
+color: white;
+text-align: justify;
+float: right;
+clear: left;
+line-height: 1.5em;
+}
+
+#bottomDiv{
+  float: right;
+  margin: 0px;
+  background-color: #555b8f;
+  padding-bottom: 20%;
+}
+
+#bottomArrow{
+  
+  float:right;
+  padding: 0px; 
+  margin: 0px;
+  right: 0px; 
+}
+
+#heading2{
+  font-family: Futura bold, sans-serif;
+  color: white;
+left: 150px;
+  top: 130px;
+  position: relative;
+}
+
+#endtext{
+
+width: 30%; 
+position: relative;
+left: 140px;
+  top: 180px;
+font-family: Futura,sans-serif;
+font-size: 15px;
+color: white;
+text-align: justify;
+line-height: 1.5em;
+}
+
+#heximages{
+  left: 170px;
+  top: 20px;
+  position: relative;
+}
+
+#hexstyle{
+	margin-bottom: 50px;
+}
+
+/*---------------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------CONTACT US----------------------------------------*/
+
+form {
+    text-align: center;
+    padding-top: 60px;
+}
+
+label.formLabel {
+    display: inline-block;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input.inputstyle {
+    font-family: futura italic;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #231e1f;
+    width: 200px;
+    text-align: center;
+}
+
+.profilesButton{
+	margin-top:0px;
+}
+
+/*---------------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------MY PROFILE----------------------------------------*/
+
+/* hide nav button */
+
+#hide{
+	float:left; 
+	margin:5px; 
+}
+
+/*HEXAGON PROFILE IMAGE STYLING*/
+
+svg {
+    width: 19%;
+    stroke: #8e8db7;
+    stroke-width: 4;
+}
+
+#profileInfo {
+    width: 90%;
+    height: 750px;
+    background-color: #8a83d1;
+    margin: 0 auto;
+    z-index: 3;
+    position: relative;
+    border-radius: 35px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#title {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+#title2 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+#title3 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20%;
+    text-align: left;
+    padding-left: 20px;
+}
+#text {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/*---------------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------HISTORIC BOOKING----------------------------------------*/
+
+#bookTable, th, td {
+	margin: 10px;
+	padding:10px; 
+}
+
+button {
+    background-color: #6e6e9a;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #231e1f;
+}
+
+/*TABLE STYLING*/
+
+table, th, td {
+	text-align:center;
+	
+	margin: 10px;
+	margin-left:20%;
+}
+
+td {
+	max-width: 300px;
+	min-width: 100px;
+	min-height: 300%;
+	margin: 10px; 
+	background-color:white;
+}
+
+th {
+	padding:10px; 
+}
+
+/*---------------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------LOGIN PAGE START----------------------------------------*/
+#divContainer2 {
+    height: 550px;
+    width: 550px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#introDiv {
+    height: 550px;
+    width: 550px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    padding-top: 120px;
+    background-image: url(../images/login.jpg);
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+}
+#logInDiv {
+    height: 550px;
+    width: 550px;
+    margin: 0 auto;
+    position: absolute;
+    padding-top: 80px;
+    background-image: url(../images/login.jpg);
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+}
+#logInForm {
+    margin: 0 auto;
+    width: 350px;
+}
+#registerDiv {
+    height: 550px;
+    width: 550px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    background-image: url(../images/login.jpg);
+    background-repeat: no-repeat;
+    background-size: 550px 550px;
+}
+#registerForm {
+    text-align: center;
+    margin-top: 80px;
+}
+
+/*--------------------------------LOGIN PAGE FINISH----------------------------------------*/
+
+
+
+
+
+/*--------------------------------BOOK NOW PAGE START----------------------------------------*/
+
+form {
+    text-align: center;
+    padding-top: 60px;
+}
+label {
+    display: inline-block;
+    width: 220px;
+    font-size: 26px;
+    font-weight: bold;
+}
+label.formLabel {
+    display: inline-block;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+}
+input.form1 {
+    font-family: futura italic;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #231e1f;
+    width: 200px;
+    text-align: center;
+}
+
+/*--------------------------------BOOK NOW PAGE FINISH----------------------------------------*/
+
+
+
+
+
+/*--------------------------------POD PROFILE PAGE START----------------------------------------*/
+
+#quick {
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    clear: both;
+    float: left;
+}
+#enquire {
+    width: 150px;
+    height: 50px;
+	margin:0px;
+	margin-top:-10px;
+}
+#divContainer {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #f5f4f9;
+    margin-bottom: 5%;
+}
+#skills {
+    width: 330px;
+    height: 750px;
+    background-color: #6e6e9a;
+    margin: 0 auto;
+    float: left;
+    z-index: 2;
+    position: relative;
+    border-radius: 35px;
+    overflow: hidden;
+	
+}
+#skilllist {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20%;
+    text-align: left;
+    padding-left: 20px;
+    list-style-type: none;
+}
+#bio {
+    width: 330px;
+    height: 750px;
+    background-color: #8a83d1;
+    margin: 0 auto;
+    float: left;
+    margin-left: -150px;
+    z-index: 3;
+    position: relative;
+    border-radius: 35px;
+    overflow: hidden;
+    padding: 10px;
+}
+#title {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+#title2 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+#title3 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20%;
+    text-align: left;
+    padding-left: 20px;
+}
+#workHistory {
+    width: 330px;
+    height: 750px;
+    background-color: #6a6cae;
+    margin: 0 auto;
+    float: left;
+    margin-left: -150px;
+    z-index: 1;
+    position: relative;
+    border-radius: 35px;
+    overflow: hidden;
+	text-align: center; 
+}
+#text {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/*--------------------------------POD PROFILE PAGE FINISH---------------------------------------*/
+
+
+
+
+
+/*--------------------------------POD SEARCH PAGE START---------------------------------------*/
+
+#basictxt {
+    text-align: left;
+    padding: 11px;
+    padding-bottom: 24px;
+    margin: 5px;
+}
+#quote {
+    text-align: left;
+    color: #4a486d;
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 65px;
+}
+.hireButton{
+	
+    padding-top: 5px;
+	width:70px;
+}
+/*--------------------------------POD SEARCH PAGE FINISH---------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*--------------------------------OTHERS---------------------------------------*/
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    padding: 6px 12px;
+    cursor: pointer;
+	background-color: none; 
+	position: absolute;
+	right:70px; 
+	width: 54px;	
+}
+
+
+#jobTitle {
+	clear: both; 
+}
+
+#coverButton {
+right:10px;
+}
+
+#searchImg{
+	margin:1px; 
+}
+
+* {
+    font-family: Verdana;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: auto;
+    min-width: 600px;
+    max-width: 2000px
+}
+
+/*RESPONSIVE LAYOUT*/
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 25px;
+    padding: 20px;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+
+/*MEDIA OBJECT STYLING*/
+
+.media-object-default {
+    padding: 10px;
+    margin: 10px;
+}
+
+/*HOME PAGE SIGN IN*/
+
+.login {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    float: right;
+}
+/*JUMBOTRON STYLING*/
+
+.profileback{
+	text-align: center;
+    background-color: #f5f4f9;
+    padding: 2%;
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+}
+
+/*TOPTXT STYLING*/
+
+#name {
+    padding: 10px;
+}
+
+#hire{
+  margin: auto; 
+  padding-top: 90px; 
+  padding-bottom: 57px; 
+}
+
+/*BUTTON STYLING*/
+
+.buttonlayout {
+    width: 150px;
+    height: 60px;
+    padding: 3.5px 3px;
+    font-size: 20px;
+    font-family: verdana, serif;
+    margin: 10px auto;
+}
+
+
+input.form {
+    font-family: futura italic;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid #231e1f;
+    width: 200px;
+    text-align: center;
+}
+
+textarea{
+	border:1px solid #231e1f; 
+    border-radius: 25px;
+	padding:10px; 
+	margin:10px;
+	font-size:15px;
+}
+
+/*LOGIN FORM STYLING*/
+
+.lForm {
+    padding: 10px;
+}
+/*BOTTOM SECTION*/
+
+.row {
+    text-align: center;
+    font-family: 'Arial';
+    padding: 10px;
+    margin: 10px;
+}
+
+/*STYLING FOR THE PROFILES*/
+
+.media-body {
+    background-color: #6c7099;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #231e1f;
+    padding: 10px;
+}
+.media-body #skills {
+    background-color: #ffcc66;
+    border-radius: 5px;
+    padding: 2px;
+    border: 2px solid #231e1f;
+}
+
+
+
+
+
