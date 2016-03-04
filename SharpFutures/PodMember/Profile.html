@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--BOOTSRAP VIA CDN-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+     integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--Stylesheets-->
+    <link rel='stylesheet' href='stylesheets/stylesheet.css' type='text/css'>
+    <!--JQuery-->
+	<script src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!--Scripts-->
+	<script type="text/javascript" src="script/change.js"></script>
+    <script type="text/javascript" src="script/move2.js"></script>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+  </head>
+  <body>
+    <br/> 
+    <header>
+	
+    <nav>
+      <a href="#"> POD News </a>
+      <a href="HistoricBookings.html">View History </a>
+    <a href='#'>Contact Us </a>
+      <a href="#"> Log Out </a> 
+    </nav>
+    </header>
+    <div class="jumbotron">
+      <img src="images/logo2.png" id="logo"/> 
+    </div>
+    <br/> 
+    <div id="backcol">
+	
+      <div class='container'>	
+	 
+
+		
+	  <h1 id="name"> Matthew Rathbone</h1>	
+	  <h3 id="jobTitle" > Software Developer</h3> 
+	  <h4 id="jobTitle" > Manchester </h4>
+	  <button id="hide" class="text"> Hide nav</button>
+	  <div class="profileback"> 
+
+		 
+		  <label for="file-upload" class="custom-file-upload">
+			<img src="images/camera.png" height="45px" width="45px" id="coverButton" />
+		  </label>
+		<input id="file-upload" type="file" id="test"  onchange="loadImageFile(this)" />
+	
+        <ul id="sidenav">
+          <p> <strong> Edit Profile  </strong> </p>
+          <li><a class="active" href="#home"> </a></li>
+          <li><a href="#news" onclick="removeImageFile()">Clear Background</a></li>
+          <li><a href="#contact"> Update Profile</a></li>
+          <li><a href="#about">Credits</a></li>
+          <br/> <br/> 
+	
+          <img src="images/search2.png" height="15px" width="15px" id="searchImg"/> 
+          <input id="quick"type="text" placeholder="Quick Search"/> 
+        </ul>
+
+        <svg viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+              <image xlink:href="images/matt.jpeg" x="-25" width="150" height="100" />
+            </pattern>
+          </defs>
+          <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+        </svg>
+      </div>
+      <br/> <br/> 
+      <div id="divContainer">
+        <div id="skills">
+          <h3 id="title">Skills</h3>
+          <ul id="skilllist">
+            <li> being sarcastic </li>
+            <li> HTML5 </li>
+            <li> CSS </li>
+            <li> PHOTOSHOP </li>
+            <li> PHP </li>
+            <li> JAVA </li>
+            <li> C++ </li>
+          </ul>
+        </div>
+        <div id="bio">
+          <h3 id="title">Matthew Rathbone</h3>
+          <h4 id="title2">Software Developer</h4> 
+          <h4 id="title3">Bio</h4>
+          <p id="text"> Unpleasant astonished an diminution up partiality. Noisy an their of meant. 
+            Death means up civil do an offer wound of. Called square an in afraid direct. Resolution 
+            diminution conviction so mr at unpleasing simplicity no. No it as breakfast up conveying 
+            earnestly immediate principle. Him son disposed produced humoured overcame she bachelor 
+            improved. Studied however out wishing but inhabit fortune windows. <br/> <br/> 
+            Unpleasant astonished an diminution up partiality. Noisy an their of meant. 
+            Death means up civil do an offer wound of. 
+          </p>
+          <h4 id="title3">Testmonials</h4>
+          <p id="text"> Unpleasant astonished an diminution </p>
+        </div>
+        <div id="workHistory">
+          <h3 id="title">Work History</h3>
+          <h4 id="title3">Job one</h4>
+          <p id="text"> Unpleasant astonished an diminution up partiality. Noisy an their of meant. 
+            Death means up civil do an offer wound of. Called square an in afraid direct. Resolution 
+            diminution conviction so mr at unpleasing simplicity no. No it as breakfast up conveying 
+            earnestly immediate principle. 
+          </p>
+          <h4 id="title3">Job two</h4>
+          <p id="text"> Unpleasant astonished an diminution up partiality. Noisy an their of meant. 
+            Death means up civil do an offer wound of. Called square an in afraid direct. Resolution 
+            diminution conviction so mr at unpleasing simplicity no. No it as breakfast up conveying 
+            earnestly immediate principle. Unpleasant astonished an diminution up partiality. Noisy an their of meant. 
+            Death means up civil do an offer wound of. Called square an in afraid direct. Resolution 
+            diminution conviction so mr at unpleasing simplicity no.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <img src="images/logo2.png" id="footlogo" />  
+      <p> copyright 2016 / other info </p>
+      <br/>
+    </footer>
+  </body>
+</html>

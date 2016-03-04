@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--BOOTSRAP VIA CDN-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+     integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--Stylesheets-->
+    <link rel='stylesheet' href='stylesheets/stylesheet.css' type='text/css'>
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!--Scripts-->
+    <script type="text/javascript" src="script/move2.js"></script>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+  </head>
+  <body>
+    <br> 
+    <header>
+	 <!--Nav Bar-->
+    <nav>
+      <a href='index.html'>POD News </a>
+	<a href='Profile.html'>View Profile</a>
+    <a href='#'>Contact Us </a>
+    <a href='#'>Log Out </a>
+    </nav>
+    <header>
+    <!--Jumbotron-Logo-->
+    <div class="jumbotron">
+      <img src="images/logo2.png" id="logo"/> 
+    </div>
+    <br> 
+    <div id="backcol">
+      <div class='container'>
+	   
+	   
+	   <h1>Historic Bookings</h1>
+    		<p>This page will show a list of bookings that you have had and finished. 
+			It will show you your client bookings.</p>
+            
+            
+            <div id="bookingContent">
+            	<table id="bookTable">	
+                	<tr style="background-color:#8a87a2;">
+                	<th>Client</th>
+                    <th>Job Description</th>
+                    <th>Hours Completed</th>
+                    <th>Job Status</th>
+					<th> Jobs Completed </th>
+					<th>Other Info</th>
+                    </tr>
+                	<tr>
+                    	<td> Shaprfutures <br> 
+						<svg id="pic" viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+					<image xlink:href="images/logo2.png" x="-25" width="150" height="100" />
+					</pattern>
+				</defs>
+			<polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+			</svg>
+			<br> 
+            </td>
+                        <td>Developing a website</td>
+                        <td>120</td>
+                        <td>Currently undergoing a project for sharpfutures, leading the graphical interface and providing solutions for a 
+						template for the company to use.</td>
+						 <td>0</td>
+                        <td>Currently Busy</td>
+                    </tr>
+					<td>Alan Sugar<br>
+						
+						<svg id="pic" viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+					<image xlink:href="images/sugar.jpg" x="-25" width="150" height="100" />
+					</pattern>
+				</defs>
+			<polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+			</svg>
+			<br> 
+           <form class="vpButton" action="Profile.html">
+			  </form> <br> <br> </td>
+                        <td>12 weeks, learning to become an apprentice</td>
+                        <td>48</td>
+                        <td>I'm Fired</td>
+						 <td>0</td>
+                        <td>No Jobs Avaliable</td>
+                    </tr>
+                </table>
+            </div>
+		 </div> 
+    </div>
+	   <!--Footer-->
+    <footer style="clear:both">
+      <img src="images/logo2.png" id="footlogo" />  
+      <p> copyright 2016 / other info </p>
+      <br>
+    </footer>
+  </body>
+</html>
