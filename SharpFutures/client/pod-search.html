@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+<!--JQUERY VIA GOOGLE CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<!-- ------------------------->
+<!--BOOTSRAP VIA CDN-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!-- ------------------------>
+<!--STYLESHEET-->
+<link rel="stylesheet" href="stylesheets/stylesheet.css" type="text/css">
+<!--SCRIPT FOR FORM VALIDATION-->
+<script src="scripts/script.js"></script>
+
+<meta charset="UTF-8">
+<title>Profiles Page</title>
+</head>
+<br>
+
+<body>
+<div id="navcontainer">	
+    <nav class='navigation'>
+    <a href='index.html'>POD News</a>
+	<a href='pod-search.html'>POD Search</a>
+    <a href='my-profile.html'>My Profile</a>
+    <a href='current-bookings.html'>Current Bookings</a>
+    <a href='historic-bookings.html'>Historic Bookings</a>
+    <a href='contact-us.html'>Contact Us</a>
+    <a href='login.html'>Log In</a>
+    </nav>
+    </div>
+
+<!--JUMBOTRON-->
+<div class="jumbotron">
+<img src="images/logo2.png" id="logo"/> 
+</div>
+<br> <br> 
+
+<!--MAIN CONTENT SHOULD BE RESPONSIVE THANKS TO USING BOOTSTRAP-->
+    <div class='container'>
+		<ul id="sidenav">
+<p> <strong> Pod Members  </strong> </p>
+<p style="padding:10px"> <b> Sort By: </b> </p>  
+  <li><a class="active" href="#home">Best match</a></li>
+  <li><a href="#news">Distance</a></li>
+  <li><a href="#contact">Skills</a></li>
+  <li><a href="#about">Name</a></li>
+ <li><a href="#about">Credits</a></li>
+ <br> <br> 
+ 
+<img src="images/search2.png" height="15px" width="15px" style="margin:1px"/> 
+  <input id="quick"type="text" placeholder="Quick Search"/> 
+</ul>
+	
+	
+	
+	<div>
+        <table>	
+            <tr>
+             <th>PODs Avaliable</th>
+             <th>Basic Profile</th>
+             <th>Past Pod Jobs</th>
+            </tr>
+					
+            <tr>
+            <td> <h4>Matthew Rathbone</h4> 
+			  <svg id="pic" viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				 <defs>
+				 <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+				 <image xlink:href="images/matt.jpeg" x="-25" width="150" height="100" />
+				 </pattern>
+				 </defs>
+			     <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+			  </svg>
+			  
+			  <br> 
+			  <form class="vpButton" action="PodProfile.html">
+				<button type="submit">View Profile</button>
+			  </form>
+              <br> <br>
+			</td>
+			
+			<td> 
+				<p id="basictxt"> Skills: js, sarcasm, tugtwejhke , hetkewjh vktw, kuwegt jw </p>
+				<p id="basictxt"> Credits: 25</p>
+				<p id="basictxt"> Location: Manchester</p>
+			</td>
+			
+			<td> 
+			   <svg id="pic2" viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="#8e8db7"/>
+			   </svg>
+			</td>
+			
+			<td> 
+				<p id="quote"> <b> "Mauris congue ex in diam lacinia, sit amet malesuada nunc iaculis. shjg fyejg uewg " <b> </p>
+			</td>
+			
+			<td> 
+			 <form class="hireButton" action="BookNow.html">
+			 <input type="image" src="images/hex.png" alt="Submit">
+			 </form>
+			 
+				 
+			</td>
+			</tr> 
+			
+			<tr>
+            <td> <h4>John</h4> 
+			  <svg id="pic" viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				 <defs>
+				 <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+				 <image xlink:href="images/john.jpg" x="-25" width="150" height="100" />
+				 </pattern>
+				 </defs>
+			     <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+			  </svg>
+			  <br> 
+              <button>View Profile</button> <br> <br>
+			</td>
+			
+			<td> 
+				<p id="basictxt"> Skills: js, php, html</p>
+				<p id="basictxt"> Credits: 25</p>
+				<p id="basictxt"> Location: Manchester</p>
+			</td>
+			
+			<td> 
+			   <svg id="pic2" viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="#8e8db7"/>
+			   </svg>
+			</td>
+			
+			<td> 
+				<p id="quote"> <b> "Ytoeut buetbg irgur ebgueb sogheubvwu eug." <b> </p>
+			</td>
+			
+			<td> 
+			  <form class="hireButton" action="BookNow.html">
+			 <input type="image" src="images/hex.png" alt="Submit">
+			 </form>
+			</td>
+			</tr> 
+			
+			
+			<tr>
+            <td> <h4>John</h4> 
+			  <svg id="pic" viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				 <defs>
+				 <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+				 <image xlink:href="images/profile.png" x="-25" width="150" height="100" />
+				 </pattern>
+				 </defs>
+			     <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+			  </svg>
+			  <br> 
+              <button>View Profile</button> <br> <br>
+			</td>
+			
+			<td> 
+				<p id="basictxt"> Skills: js, sarcasm</p>
+				<p id="basictxt"> Credits: 25</p>
+				<p id="basictxt"> Location: Manchester</p>
+			</td>
+			
+			<td> 
+			   <svg id="pic2" viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="#8e8db7"/>
+			   </svg>
+			</td>
+			
+			<td> 
+				<p id="quote"> <b> "Ytoeut buetbg irgur ebgueb sogheubvwu eug." <b> </p>
+			</td>
+			
+			<td> 
+				 
+			  <form class="hireButton" action="BookNow.html">
+			 <input type="image" src="images/hex.png" alt="Submit">
+			 </form>
+			</td>
+			</tr> 
+                    
+        </table>
+    </div>
+    		
+</div> 
+
+
+
+<footer style="clear:both"> 
+	 
+		<img src="images/logo2.png" id="footlogo" />  
+		
+		<p> copyright 2016 / other info </p>
+		<br>
+		
+		</footer> 
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--BOOTSRAP VIA CDN-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+     integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--Stylesheets-->
+    <link rel='stylesheet' href='stylesheets/stylesheet.css' type='text/css'>
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!--Scripts-->
+    <script type="text/javascript" src="script/move2.js"></script>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+  </head>
+  <body>
+    <br> 
+    <header>
+	 <!--Nav Bar-->
+     <div id="navcontainer">	
+    <nav>
+    <a href='index.html'>POD News</a>
+	<a href='pod-search.html'>POD Search</a>
+    <a href='my-profile.html'>My Profile</a>
+    <a href='current-bookings.html'>Current Bookings</a>
+    <a href='historic-bookings.html'>Historic Bookings</a>
+    <a href='contact-us.html'>Contact Us</a>
+    <a href='login.html'>Log In</a>
+    </nav>
+    </div>
+    <header>
+    <!--Jumbotron-Logo-->
+    <div class="jumbotron">
+      <img src="images/logo2.png"/> 
+    </div>
+    <br> 
+    <div id="backcol">
+      <div class='container'>
+	   
+	   
+	   <h1>Historic Bookings</h1>
+    		<p>This page will show a list of bookings that you have had and finished,and should be interactive
+			to say that if you are a client, it will show you pod member bookings, but if you are a pod member
+			it will show you client bookings.</p>
+            <p>There is another page for current bookings,and the list of bookings that you currently have 
+			ongoing will appear here, once again for pod members it will show clients and for clients it will 
+			show pod members.</p>
+            
+            
+          
+            	<table id="bookTable">	
+                	<tr style="background-color:#8a87a2;">
+                	<th>Name</th>
+                    <th>Basic Profile</th>
+                    <th>Past Pod Jobs</th>
+                    <th>Short Desciption</th>
+                    <th>Job Status</th>
+                    </tr>
+                	<tr>
+                    	<td>Matthew Rathbone <br>
+						
+						<svg id="pic" viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+					<image xlink:href="images/matt.jpeg" x="-25" width="150" height="100" />
+					</pattern>
+				</defs>
+			<polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+			</svg>
+			<br> 
+           <form class="vpButton" action="Profile.html">
+				<button type="submit">View Profile</button>
+			  </form> <br> <br> </td>
+                        <td>Html, js</td>
+                        <td>bakery, sharp futuresbakery, sharp futuresbakery, sharp futuresbakery, sharp futuresbakery, sharp futuresbakery, sharp futuresbakery, sharp futures</td>
+                        <td>bakery, sharp futuresbakery, sharp futuresbakery, sharp futuresbakery</td>
+                        <td>Currently Free  <br> <br> <button>Re-book</button></td>
+                    </tr>
+                    <tr>
+                    	<td>John <br> 
+						<svg id="pic" viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+					<image xlink:href="images/john.jpg" x="-25" width="150" height="100" />
+					</pattern>
+				</defs>
+			<polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+			</svg>
+			<br> 
+            <button>View Profile</button>  <br> <br> </td>
+                        <td>apple graphic designer</td>
+                        <td>lead designer for apple</td>
+                        <td>I am currently undergoing a project for Apple, leading the graphical interface and providing solutions for a template for the company to use.</td>
+                        <td>Currently Busy</td>
+                    </tr>
+                </table>
+           
+		 </div> 
+    </div>
+	   <!--Footer-->
+    <footer style="clear:both">
+      <img src="images/logo2.png" id="footlogo" />  
+      <p> copyright 2016 / other info </p>
+      <br>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--BOOTSRAP VIA CDN-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+     integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--Stylesheets-->
+    <link rel='stylesheet' href='stylesheets/stylesheet.css' type='text/css'>
+    <!--JQuery-->
+	<script src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!--Scripts-->
+	<script type="text/javascript" src="script/change.js"></script>
+    <script type="text/javascript" src="script/move2.js"></script>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+  </head>
+  <body>
+    <br> 
+    <header>
+	 <!--Nav Bar-->
+     <div id="navcontainer">	
+    <nav>
+      <a href='index.html'>POD News</a>
+	<a href='pod-search.html'>POD Search</a>
+    <a href='my-profile.html'>My Profile</a>
+    <a href='current-bookings.html'>Current Bookings</a>
+    <a href='historic-bookings.html'>Historic Bookings</a>
+    <a href='contact-us.html'>Contact Us</a>
+    <a href='login.html'>Log In</a>
+    </nav>
+    </div>
+    <header>
+    <!--Jumbotron-Logo-->
+    <div class="jumbotron">
+      <img src="images/logo2.png"/> 
+    </div>
+    <br> 
+    <div id="backcol">
+	 <input style="float:left"type="file" onchange="loadImageFile(this)"/>
+	  <br> <br> 
+	  <button style="clear:both" type="button" onclick="removeImageFile()">Clear background</button>
+      <div class='container'>	
+	 
+	  
+	  
+		<button id="hide" class="text" style="float:left; margin:5px"> Hide nav</button>
+	  <h1 style="clear:both">Company Name</h1>	
+	  <div class="profilePic"> 
+	   <!--Side Nav-->
+        <ul id="sidenav">
+          <p> <strong>Edit Profile</strong> </p>
+          <p></p>
+          <li><a href="#news">Profile Picture</a></li>
+          <li><a href="#contact">Profile Banner</a></li>
+          <li><a href="#about">Bio</a></li>
+          <br> <br>  
+        </ul>
+		 <!--Profile Page-->
+        <svg viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+              <image xlink:href="images/AlanSugar.jpg" x="-25" width="150" height="100" />
+            </pattern>
+          </defs>
+          <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+        </svg>
+		 
+      </div>
+      <br> <br> 
+		   <!--Div for Bio-->
+        <div id="profileInfo">
+          <h3 id="title">Client/Company Name</h3>
+          <h4 id="title2">Main purpose of businesss</h4>
+          <h4 id="title3">Bio</h4>
+          <p id="text"> Unpleasant astonished an diminution up partiality. Noisy an their of meant. 
+            Death means up civil do an offer wound of. Called square an in afraid direct. Resolution 
+            diminution conviction so mr at unpleasing simplicity no. No it as breakfast up conveying 
+            earnestly immediate principle. Him son disposed produced humoured overcame she bachelor 
+            improved. Studied however out wishing but inhabit fortune windows. 
+            Unpleasant astonished an diminution up partiality. Noisy an their of meant. 
+            Death means up civil do an offer wound of. 
+          </p>
+          <h4 id="title3">Testmonials</h4>
+          <p id="text">Unpleasant astonished an diminution up partiality. Noisy an their of meant. 
+            Death means up civil do an offer wound of. Called square an in afraid direct. Resolution 
+            diminution conviction so mr at unpleasing simplicity no. No it as breakfast up conveying 
+            earnestly immediate principle. Him son disposed produced humoured overcame she bachelor 
+            improved. Studied however out wishing but inhabit fortune windows. 
+            Unpleasant astonished an diminution up partiality. Noisy an their of meant. </p>
+        </div>
+    </div>
+	   <!--Footer-->
+    <footer style="clear:both">
+      <img src="images/logo2.png" id="footlogo" />  
+      <p> copyright 2016 / other info </p>
+      <br>
+    </footer>
+  </body>
+</html>
